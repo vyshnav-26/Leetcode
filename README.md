@@ -1,40 +1,38 @@
 # Leetcode
-This repository consist of problems i solved during my leetcode practices.
-My leetcode profile:
-      📊 [LeetCode Profile](https://leetcode.com/vyshnav2606/)
-      
-I have solved over 300+ leetcode problems (100+ medium level problems).
 
-I have solid foundations on:
-  -- Arrays
-  -- Strings
-  -- LinkedList
-  -- Trees
+This repository contains problems I solved during my LeetCode practice.
 
-What i am confident with:
-  -- Two pointers
-  -- Sliding window
-  -- recursions
-  -- Prefix sum
-I am still working on more math based problems to tackle problems based on (prefix sum + hashMap)
+📊 [LeetCode Profile](https://leetcode.com/vyshnav2606/) — 300+ problems solved (100+ Medium)
 
-What I'm actively strengthening:
-  -- Depth first searches   ⭐⭐⭐⭐
-  -- Breadth first searches ⭐⭐⭐⭐
-  -- Backtracking           ⭐⭐⭐⭐
-  -- Dynamic programming    ⭐⭐⭐
-  -- Graph problems         ⭐⭐
+---
 
-Other areas explored:
-  -- Hash Table
-  -- Sorting
-  -- Stacks
-  -- Queues
+## Why This Repo?
 
-I am Trying to solve more medium level problems to strengthen my problem solving skill
+You don't need to grind 100+ Easy problems to learn DSA. This repo focuses on **Medium and Hard problems** — where actual patterns emerge. I've organized problems by topic so you can start from where it matters.
 
-The Intent of this repository is to help people learn DSA.
-Why this repo? It's organized to help you learn DSA in the right order — start from where I struggled, and it might save you some time.
+---
+
+## What I've Learned
+
+**Solid foundations:**
+- Arrays, Strings, LinkedList, Trees
+
+**Confident with:**
+- Two pointers, Sliding window, Recursion, Prefix sum
+
+**Actively strengthening:**
+- DFS ⭐⭐⭐⭐
+- BFS ⭐⭐⭐⭐
+- Backtracking ⭐⭐⭐⭐
+- Dynamic programming ⭐⭐⭐
+- Graph problems ⭐⭐
+
+**Also explored:**
+- Hash Table, Sorting, Stacks, Queues
+
+---
+
+**Note:** Still working on math-based problems (prefix sum + HashMap combinations) and solving more Medium problems to strengthen overall problem-solving skills.
 
 Why Medium + Hard?
 
