@@ -1,0 +1,46 @@
+class Solution {
+    List<List<String>> ans = new ArrayList<>();
+    public List<List<String>> solveNQueens(int n) {
+        char[][]arr = new char[n][n];
+        for(int i = 0;i<n;i++){
+            for(int j = 0;j<n;j++){
+                arr[i][j] = '.';
+            }
+        }
+        backtrack(arr,0);
+        return ans;
+    }
+    public void backtrack(char[][]arr,int row){
+        if(row == arr.length){
+            List<String> list = new ArrayList<>();
+            for(int i = 0;i<arr.length;i++){
+                StringBuilder b = new StringBuilder();
+                for(int j = 0;j<arr.length;j++){
+                    b.append(arr[i][j]);
+                }
+                list.add(b.toString());
+            }
+            ans.add(list);
+            return;
+        }
+        for(int i = 0;i<arr.length;i++){
+            if(check(arr,row,i)) continue;
+            arr[row][i] = 'Q';
+            backtrack(arr,row+1);
+            arr[row][i] = '.';
+        }
+    }
+
+    public boolean check(char[][]arr ,int row,int col){
+        for(int i = row;i >= 0;i--){
+            if(arr[i][col] == 'Q') return true;
+        }
+        for(int i = row,j = col;i >=0 && j >= 0;i--,j--){
+            if(arr[i][j] == 'Q') return true;
+        }
+        for(int i = row,j = col;i >= 0 && j < arr.length;i--,j++){
+            if(arr[i][j] == 'Q') return true;
+        }
+        return false;
+    }
+}
