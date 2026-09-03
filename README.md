@@ -38,3 +38,11 @@ Why Medium + Hard?
 
 Grinding 100+ Easy problems gives false confidence. This repo focuses on **Medium and Hard** — where you actually learn patterns.
 Organized by topic so you can pick where to start. Skip the easy grind, learn what matters.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1848-minimum-distance-to-the-target-element](https://github.com/vyshnav-26/Leetcode/tree/master/1848-minimum-distance-to-the-target-element) |
+<!---LeetCode Topics End-->
